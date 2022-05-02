@@ -1,0 +1,75 @@
+*{margin:0; padding: 0;}
+body{
+    margin: 0;
+    background-color:  #d1e8f5;
+    font-family: Helvetica, sans-serif;
+}
+h1{
+    margin-top: 40px;
+    font-family: Helvetica, sans-serif;
+}
+#form{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(29, 22, 22);
+    text-align: center;
+    padding: 30px;
+    max-width: 450px;
+    height: 500px;
+    margin-left: 34%;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10%;
+    box-sizing: border-box;
+    margin-top: 4%;
+    line-height: 32px;
+}
+.title{
+    font-family: Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: -2%;
+    
+}
+.input{
+    min-width: 300px;
+    border: 2px black solid;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+    border-radius: 10vh;
+}
+.input input{
+    width: 80%;
+    height: 90%;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    text-align: center;
+}
+#btn{
+    color: white;
+    padding: 5px;
+    margin: 20px 0px 10px -5px;
+    min-width: 280px;
+}
+#btn button{
+     font-family: Helvetica, sans-serif;
+     background: rgb(16, 16, 53);
+     color: white;
+     width: 45%;
+     height: 45px;
+     font-size: 20px;
+     border-radius: 10vh;
+     outline: none;
+     cursor: pointer;
+    }
+#btn button:hover{
+    background: rgb(48, 48, 94);
+}
+p{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+
