@@ -54,71 +54,244 @@
   
 
   <main id="main">
+
+  
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features">
+
+          <div class="container" data-aos="fade-up">
     
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      
-    </section><!-- End Counts Section -->
-
-    
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="section-title">
-          <span>NOVO PROJETO</span>
-          <h2>NOVO PROJETO</h2>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Dados do projeto</li>
-              <li data-filter=".filter-app">propósito de uso</li>
-              <li data-filter=".filter-card">compartilhamentos</li>
-              <li data-filter=".filter-web">dados pessoais</li>
-              <li data-filter=".filter-web">atores</li>
-              <li data-filter=".filter-web">ação/negociação</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          
-    </section><!-- End Portfolio Section -->
-
-    
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Exemplo</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6 mt-3 mt-md-0">
-                  <label for="name">Exemplo</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
+            <div class="row">
+              <div class="col-lg-6">
               </div>
-              <div class="form-group mt-3">
-                <label for="name">Exemplo</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+            </div> <!-- / row -->
+    
+            <!-- Feature Tabs -->
+            <div class="row feture-tabs" data-aos="fade-up">
+              
+                <h3>NOVO PROJETO</h3>
+    
+                <!-- Tabs -->
+                <ul class="nav nav-pills mb-3">
+                  <li>
+                    <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Dados do projeto</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" data-bs-toggle="pill" href="#tab2">Propósito de uso</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" data-bs-toggle="pill" href="#tab3">Compartilhamentos</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" data-bs-toggle="pill" href="#tab4">Dados pessoais</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" data-bs-toggle="pill" href="#tab5">Atores</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" data-bs-toggle="pill" href="#tab6">Ação/negociação</a>
+                  </li>
+                </ul><!-- End Tabs -->
+    
+                <!-- Tab Content -->
+                <div class="tab-content">
+    
+                  <div class="tab-pane fade show active" id="tab1">
+                    <!-- Floating Labels Form -->
+                    <form class="row g-3">
+                      <div class="col-md-6">
+                        <div class="form-floating">
+                          <input type="name" class="form-control" id="floatingName" placeholder="Nome do Projeto">
+                          <label for="floatingName">Nome do Projeto</label>
+                        </div>
+                      </div>
+                
+                      <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                          <select class="form-select" id="floatingSelect" aria-label="State">
+                            <option selected>Desktop</option>
+                            <option value="1">Web</option>
+                            <option value="2">Mobile</option>
+                            <option value="3">IoT</option>
+                          </select>
+                          <label for="floatingSelect">Plataforma</label>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-floating">
+                          <textarea class="form-control" placeholder="Address" id="floatingTextarea" style="height: 100px;"></textarea>
+                          <label for="floatingTextarea">Descrição do Projeto</label>
+                        </div>
+                      </div>
+                
+                
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Salvar</button>
+                        <button type="reset" class="btn btn-secondary">Cancelar</button>
+                      </div>
+                    </form><!-- End floating Labels Form -->
+                  </div><!-- End Tab 1 Content -->
+    
+                  <div class="tab-pane fade show" id="tab2"> <!-- Tab 2 Content -->
+                    <!-- Bordered Table -->
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th scope="col">Descrição</th>
+                          <th scope="col">Base Legal</th>
+                          <th scope="col">Visualizar</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                    
+                          <td>Exemplo de texto</td>
+                          <td>Exemplo de texto</td>
+                          <td><a class="btn btn-primary" href="" role="button"><i class="bi bi-folder"></i></a></td>
+                    
+                        </tr>
+                        <tr>
+                    
+                          <td>Exemplo de texto</td>
+                          <td>Exemplo de texto</td>
+                          <td><a class="btn btn-primary" href="" role="button"><i class="bi bi-folder"></i></a></td>
+                    
+                        </tr>
+                        <tr>
+                    
+                          <td>Exemplo de texto</td>
+                          <td>Exemplo de texto</td>
+                          <td><a class="btn btn-primary" href="" role="button"><i class="bi bi-folder"></i></a></td>
+                    
+                        </tr>
+                
+                      </tbody>
+                
+                    </table>
+                    <!-- End Bordered Table -->
+                    <div class="text-center">
+                      <button type="button" class="btn btn-outline-primary">Novo Projeto</button>
+                    </div>
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-primary">Salvar</button>
+                      <button type="reset" class="btn btn-secondary">Cancelar</button>
+                    </div>
+                  </div><!-- End Tab 2 Content -->
+    
+                  <div class="tab-pane fade show" id="tab3"> <!-- Tab 3 Content -->
+                    <div class="col-md-6">
+                      <div class="form-floating">
+                        <textarea type="name" class="form-control" id="floatingName" placeholder="Nome do Projeto"></textarea>
+                        <label for="floatingName">Descrição do propósito de Uso</label>
+                      </div>
+                    </div>
+                    <div class="checkbox1">
+                      <div class="form-check1">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                          Este projeto faz decisões baseadas unicamente no computador e sem supervisão <br>humana</br>
+                        </label>
+                      </div>
+                    </div>
+
+                   
+                    
+                    <!-- ======= Testimonials Section ======= -->
+                    <section id="testimonials" class="testimonials section-bg">
+                      <div class="container" data-aos="fade-up">
+
+                        <div class="section-title">
+                          <h4>CONTROLADORES</h4>
+                        </div>
+
+                        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                          <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                              <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                <h3>Saul Goodman</h3>
+                                
+                                
+                              </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                              <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                                <h3>Sara Wilsson</h3>
+                                
+                                
+                              </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                              <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                                <h3>Jena Karlis</h3>
+                                
+                                
+                              </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                              <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                                <h3>Matt Brandon</h3>
+                                
+                                
+                              </div>
+                            </div><!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                              <div class="testimonial-item">
+                                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                                <h3>John Larson</h3>
+                                
+                               
+                              </div>
+                            </div><!-- End testimonial item -->
+
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+
+                      </div>
+                    </section><!-- End Testimonials Section -->
+
+
+                    
+                    
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-primary">Salvar</button>
+                      <button type="reset" class="btn btn-secondary">Cancelar</button>
+                    </div>
+                  </div><!-- End Tab 3 Content -->
+    
+                <div class="tab-pane fade show" id="tab4"> <!-- Tab 4 Content -->
+                    
+                </div><!-- End Tab 4 Content -->
+    
+                <div class="tab-pane fade show" id="tab5"> <!-- Tab 5 Content -->
+                    
+                </div><!-- End Tab 5 Content -->
+    
+                <div class="tab-pane fade show" id="tab6"> <!-- Tab 6 Content -->
+                    
+                </div><!-- End Tab 6 Content -->
+    
               </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
-            </form>
+    
+              <div class="col-lg-6">
+                <img src="assets/img/features-2.png" class="img-fluid" alt="">
+              </div>
+    
+            </div><!-- End Feature Tabs -->
+    
+            
           </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
+    
+        </section><!-- End Features Section -->
 
   </main><!-- End #main -->
 
